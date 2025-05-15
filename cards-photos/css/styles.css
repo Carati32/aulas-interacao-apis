@@ -1,0 +1,33 @@
+#container{
+    display: flex;
+    width: 1280px;
+    flex-wrap: wrap;
+    margin: auto;
+    .card{
+        width: 200px;
+        box-shadow: 0 0 10px #AAA;
+        padding: 10px;
+        img{
+            max-width: 100%;
+        }
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            color: #333;
+        }
+    }
+}
+
+/* .button-arco-iris {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(5deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 200% ; 
+    background-position: 0% 0%;
+    animation: anima-arco-iris 1s infinite ;
+}
+
+@keyframes anima-arco-iris {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 100%; } 
+} */

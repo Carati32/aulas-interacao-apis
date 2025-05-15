@@ -1,0 +1,9 @@
+#container{
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    margin: 50px;
+        img{
+            max-width: 100%;
+        }
+    }
