@@ -30,6 +30,13 @@ cepInput.addEventListener("blur", () => {
                     document.querySelector("#cidade").value = data.localidade
                     document.querySelector("#estado").value = data.uf
                 }
+                else{
+                    console.log("Cep não encontrado")
+                }
+            })
+            .catch(error =>{
+                alert("Erro ao buscar o CEP")
+                console.error(error)
             })
     }
     else {
